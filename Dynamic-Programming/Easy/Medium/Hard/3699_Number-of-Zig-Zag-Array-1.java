@@ -1,4 +1,4 @@
-public class Solution {
+class Solution {
 
     private static final int MOD = 1_000_000_007;
 
