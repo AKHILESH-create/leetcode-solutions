@@ -121,6 +121,23 @@ However, if you find any better approach or optimization, feel free to open an I
 
 ---
 
+### 🌐 Connect with Me
+
+<p align="left">
+  <a href="https://github.com/AKHILESH-create" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
+  </a>
+
+  <a href="https://www.linkedin.com/in/akhilesh-kumar/" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
+  </a>
+
+  <a href="https://leetcode.com/u/akhilesh_kr11/" target="_blank">
+    <img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black"/>
+  </a>
+</p>
+
+
 ## ⭐ Support
 
 If you find this repository helpful,
