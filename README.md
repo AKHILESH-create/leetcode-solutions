@@ -137,6 +137,7 @@ However, if you find any better approach or optimization, feel free to open an I
   </a>
 </p>
 
+---
 
 ## ⭐ Support
 
