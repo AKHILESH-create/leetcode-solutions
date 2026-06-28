@@ -104,9 +104,15 @@ However, if you find any better approach or optimization, feel free to open an I
 
 ---
 
-## 📊 GitHub Stats
+# 📊 GitHub Stats
 
-> GitHub automatically displays repository statistics such as commits, contributors, stars, and activity.
+<p align="center">
+
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=AKHILESH-create&show_icons=true&theme=tokyonight"/>
+
+<img height="170" src="https://github-readme-streak-stats.herokuapp.com/?user=AKHILESH-create&theme=tokyonight"/>
+
+</p>
 
 ---
 
