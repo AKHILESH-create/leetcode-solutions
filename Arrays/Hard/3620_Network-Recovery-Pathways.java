@@ -1,3 +1,5 @@
+import java.util.*;
+
 class Solution {
 
     public int findMaxPathScore(int[][] edges, boolean[] online, long k) {
@@ -39,9 +41,7 @@ class Solution {
     private boolean check(List<List<int[]>> g, int mid, long k, int n) {
         long[] dis = new long[n];
         Arrays.fill(dis, Long.MAX_VALUE);
-        PriorityQueue<long[]> pq = new PriorityQueue<>((a, b) ->
-            Long.compare(a[0], b[0])
-        );
+        PriorityQueue<long[]> pq = new PriorityQueue<>((a, b) -> Long.compare(a[0], b[0]));
 
         dis[0] = 0;
         pq.offer(new long[] { 0, 0 });
