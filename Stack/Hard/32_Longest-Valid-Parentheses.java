@@ -1,6 +1,6 @@
-package leetcode.Stack.Hard;
+package Stack.Hard;
 
-import java.util.Stack;
+import java.util.*;
 
 class Solution {
     public int longestValidParentheses(String s) {
