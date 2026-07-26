@@ -1,3 +1,5 @@
+package math.easy;
+
 class Solution {
 
     public int maxProduct(int n) {
