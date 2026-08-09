@@ -1,4 +1,4 @@
-class Solution {
+class ValidSudoku {
     public boolean isValidSudoku(char[][] board) {
         boolean[][] rows = new boolean[9][9];
         boolean[][] cols = new boolean[9][9];
