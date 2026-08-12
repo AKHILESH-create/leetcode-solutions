@@ -158,19 +158,3 @@ If you find this repository helpful,
 This repository is licensed under the **MIT License**.
 
 Feel free to use the solutions for learning and educational purposes.
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Array
-|  |
-| ------- |
-| [0036-valid-sudoku](https://github.com/AKHILESH-create/leetcode-solutions/tree/master/0036-valid-sudoku) |
-## Hash Table
-|  |
-| ------- |
-| [0036-valid-sudoku](https://github.com/AKHILESH-create/leetcode-solutions/tree/master/0036-valid-sudoku) |
-## Matrix
-|  |
-| ------- |
-| [0036-valid-sudoku](https://github.com/AKHILESH-create/leetcode-solutions/tree/master/0036-valid-sudoku) |
-<!---LeetCode Topics End-->
