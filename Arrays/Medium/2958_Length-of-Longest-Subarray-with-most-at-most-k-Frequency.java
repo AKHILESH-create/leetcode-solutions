@@ -1,8 +1,11 @@
+import java.util.Map;
+import java.util.HashMap;
+
 class Solution {
     public int maxSubarrayLength(int[] nums, int k) {
         int ans = 0, start = -1;
-        Map<Integer, Integer> frequency = new HashMap();
-        
+        Map<Integer, Integer> frequency = new HashMap<Integer, Integer>();
+
         for (int end = 0; end < nums.length; end++) {
             frequency.put(nums[end], frequency.getOrDefault(nums[end], 0) + 1);
             while (frequency.get(nums[end]) > k) {
@@ -11,7 +14,7 @@ class Solution {
             }
             ans = Math.max(ans, end - start);
         }
-        
+
         return ans;
     }
 }
