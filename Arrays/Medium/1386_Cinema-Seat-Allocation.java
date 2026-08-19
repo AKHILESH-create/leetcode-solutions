@@ -1,3 +1,6 @@
+import java.util.HashMap;
+import java.util.Map;
+
 class Solution {
 
     public int maxNumberOfFamilies(int n, int[][] reservedSeats) {
@@ -9,8 +12,8 @@ class Solution {
         for (int[] seat : reservedSeats) {
             if (seat[1] >= 2 && seat[1] <= 9) {
                 int origin = occupied.containsKey(seat[0])
-                    ? occupied.get(seat[0])
-                    : 0;
+                        ? occupied.get(seat[0])
+                        : 0;
                 int value = origin | (1 << (seat[1] - 2));
                 occupied.put(seat[0], value);
             }
@@ -19,12 +22,10 @@ class Solution {
         int ans = (n - occupied.size()) * 2;
         for (Map.Entry<Integer, Integer> entry : occupied.entrySet()) {
             int row = entry.getKey(),
-                bitmask = entry.getValue();
-            if (
-                (bitmask | left) == left ||
-                (bitmask | middle) == middle ||
-                (bitmask | right) == right
-            ) {
+                    bitmask = entry.getValue();
+            if ((bitmask | left) == left ||
+                    (bitmask | middle) == middle ||
+                    (bitmask | right) == right) {
                 ++ans;
             }
         }
