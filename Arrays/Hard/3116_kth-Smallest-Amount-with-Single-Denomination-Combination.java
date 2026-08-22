@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 class Solution {
 
     public long findKthSmallest(int[] coins, int k) {
@@ -44,7 +46,8 @@ class Solution {
     private long count(long x, int m, long[] lcm, int[] bitCount) {
         long res = 0;
         for (int mask = 1; mask < m; mask++) {
-            if (lcm[mask] > x) continue;
+            if (lcm[mask] > x)
+                continue;
 
             if ((bitCount[mask] & 1) == 1) {
                 res += x / lcm[mask];
