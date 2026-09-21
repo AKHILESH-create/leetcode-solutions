@@ -1,5 +1,3 @@
-package Math.Medium;
-
 class Solution {
 
     public long countCommas(long n) {
