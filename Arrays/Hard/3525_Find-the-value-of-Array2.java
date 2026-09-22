@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 class SegmentTree {
 
     private static final int MAXK = 6;
