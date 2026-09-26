@@ -1,3 +1,7 @@
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
 class Solution {
 
     public String evaluate(String s, List<List<String>> knowledge) {
