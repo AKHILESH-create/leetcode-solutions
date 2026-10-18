@@ -1,3 +1,6 @@
+import java.util.*;
+import java.util.stream.Collectors;
+
 class Solution {
     private long mod = (long)1e9 + 7;
     private long[][] table;
