@@ -1,8 +1,10 @@
+import java.util.Arrays;
+
 class Solution {
 
     public int sortableIntegers(int[] nums) {
         int n = nums.length;
-        List<Integer> fac = new ArrayList<>();
+        java.util.List<Integer> fac = new java.util.ArrayList<>();
 
         for (int x = 1; x * x <= n; x++) {
             if (n % x == 0) {
